@@ -15,22 +15,23 @@
   - Gradient Descent algorithm(경사하강법) 사용
 
   ### Gradient Descent algorithm(경사하강법)
-    - cost(W,b)가 주어졌을 때 cost를 최소화 하는 W,b를 찾을 수 있음
-    - w1,w2...같은 많은 값들이 있는 cost function도 minimize 가능
-    - cost function에서 기울기를 계산해 기울기가 가장 작을 때를 찾음(미분을 사용하여 기울기 계산)
+  - cost(W,b)가 주어졌을 때 cost를 최소화 하는 W,b를 찾을 수 있음
+  - w1,w2...같은 많은 값들이 있는 cost function도 minimize 가능
+  - cost function에서 기울기를 계산해 기울기가 가장 작을 때를 찾음(미분을 사용하여 기울기 계산)
 
-    - Gradient Descent algorithm 적용 방법
-    ![Lec03-2](./image/Lec03-2.JPG)
-    - 미분 결과
-    ![Lec03-3](./image/Lec03-3.JPG)
+  - Gradient Descent algorithm 적용 방법
+  ![Lec03-2](./image/Lec03-2.JPG)
+  - 미분 결과
+  
+  ![Lec03-3](./image/Lec03-3.JPG)
 
-    * 주의사항
-      - cost function을 3차원으로 그렸을 때 convex funtion이 아니면 정상동작 하지 않음
+   * 주의사항
+     - cost function을 3차원으로 그렸을 때 convex funtion이 아니면 정상동작 하지 않음
 
-      - cost funtion모양이 convex funtion이 아닐경우
-      ![Lec03-4](./image/Lec03-4.JPG)
-      - cost funtion모양이 convex funtion일 경우
-      ![Lec03-5](./image/Lec03-5.JPG)
+     - cost funtion모양이 convex funtion이 아닐경우
+     ![Lec03-4](./image/Lec03-4.JPG)
+     - cost funtion모양이 convex funtion일 경우
+     ![Lec03-5](./image/Lec03-5.JPG)
 
 ## Lec 04 - Multi-Variable Linear Regression
 
