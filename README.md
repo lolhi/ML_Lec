@@ -31,3 +31,14 @@
       ![Lec03-4](./image/Lec03-4.JPG)
       - cost funtion모양이 convex funtion일 경우
       ![Lec03-5](./image/Lec03-5.JPG)
+
+## Lec 04 - Multi-Variable Linear Regression
+
+  - 한개의 데이터가 아닌 여러개의 데이터일때의 regression
+  ![Lec04-1](./image/Lec04-1.JPG)
+  - Hypothesis 및 cost funtion
+  ![Lec04-2](./image/Lec04-2.JPG)
+  - 데이터가 너무 많아지면 표현하기 힘듬
+    -> Matrix로 표현하여 Matrix의 곱 사용
+    ![Lec04-3](./image/Lec04-3.JPG)
+  - Matrix 사용 시 instance갯수가 많아도 한번에 계산 가능
