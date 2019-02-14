@@ -22,7 +22,7 @@
   - Gradient Descent algorithm 적용 방법
   ![Lec03-2](./image/Lec03-2.JPG)
   - 미분 결과
-  
+
   ![Lec03-3](./image/Lec03-3.JPG)
 
    * 주의사항
@@ -71,3 +71,21 @@
       ![Lec05-6](./image/Lec05-6.JPG)
     - Gradient Descent algorithm을 사용하기 위해 cost를 미분해야하는데 컴퓨터가 알아서 해줌(복잡함)
     ![Lec05-7](./image/Lec05-7.JPG)
+
+## Lec 06 - Softmax Classfication: Multinomial Classfication
+
+  - Logistic Classfication의 개념을 Multinomial Classfication에 적용
+  ![Lec06-1](./image/Lec06-1.JPG)
+  - 세개의 독립된 Classfication을 해도 되지만 하나의 벡터 묶어서 하면 바로 계산이 가능하고 독립된것들처럼 동작
+  ![Lec06-2](./image/Lec06-2.JPG)
+  - 벡터를 계산해서 나온 값들은 0 ~ 1사이의 값들이 아님
+    -> Softmax를 사용하여 0 ~ 1로 변환(확률)
+    ![Lec06-3](./image/Lec06-3.JPG)
+    ![Lec06-4](./image/Lec06-4.JPG)
+  - Softmax를 사용하여 구한 확률을 one-hot encoding으로 변환
+  ![Lec06-5](./image/Lec06-5.JPG)
+
+  - Softmax Classfication의 cost funtion
+  ![Lec06-6](./image/Lec06-6.JPG)
+  - Classfication의 예측결과가 틀렸으면 cost는 무한대, 맞았으면 0
+  ![Lec06-7](./image/Lec06-7.JPG) 
