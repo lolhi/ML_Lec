@@ -88,4 +88,24 @@
   - Softmax Classfication의 cost funtion
   ![Lec06-6](./image/Lec06-6.JPG)
   - Classfication의 예측결과가 틀렸으면 cost는 무한대, 맞았으면 0
-  ![Lec06-7](./image/Lec06-7.JPG) 
+  ![Lec06-7](./image/Lec06-7.JPG)
+
+## Lec 07-1 학습 rate, Overfitting, 일반화(Regularization)
+
+  - Learning rate
+    - Large Learning rate: Overshooting(Learning rate가 너무 커 cost가 줄어들지 않고 바깥으로 튕겨나감) 유발
+    - Small Learning rate: 너무 오래걸려 gradient가 최저값이 아님에도 step이 끝남
+    - 이런현상을 방지하기 위해서 cost값을 찍어봐야함
+
+  - Data preprocessing for gradient descent
+    - 학습에 사용되는 데이터가 서로 편차가 심히면 튀어나가는 상황이 발생할 수 있음
+    - 그래서 데이터를 정규화 해줘야함(Zero-centered data or normalized data)
+    - Standardization 방법
+    ![Lec07-1](./image/Lec07-1.JPG)
+
+  - Overfitting
+    - 학습데이터에 너무 맞는 모델을 만들어 다른 데이터가 들어왔을 때 정상적으로 처리하지 못함
+    - 해결 방법은 많은 데이터, 중복된 features 제거 , Regularization
+    - Regularization: 너무 큰 Weight 값을 가지게 하지 않는 것
+    ![Lec07-2](./image/Lec07-2.JPG)
+    - cost funtion에 특정 값을 더해 cost 값 최적화
