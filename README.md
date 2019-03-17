@@ -110,12 +110,42 @@
     ![Lec07-2](./image/Lec07-2.JPG)
     - cost funtion에 특정 값을 더해 cost 값 최적화
 
-## Lec 07-2 Traning/ Testing data set 
+## Lec 07-2 Traning/ Testing data set
 
   - data set을 전부 training하는데 사용하면 문제가 발생할 수 있음
     - 시험을 치는데 지난 시험 문제와 똑같은 문제로 시험치는것과 똑같음
   - 모델의 정확성을 높히기 위해서 data set의 70%는 training set으로, 30%는 test set으로 분리
   - test set은 숨겨져 있고 training set으로 학습
   ![Lec07_1-1](./image/Lec07_1-1.JPG)
-  
 
+
+## Lec 08-1 딥러닝의 기본 개념: 시작과 XOR 문제
+
+  - 인간의 뉴론이 생각보다 단순한 구조로 이루어져 있음
+  - activation function
+  ![Lec08_1-1](./image/Lec08_1-1.JPG)
+
+  - 그 당시(58년도) 기술로 AND, OR 문제는 해결 가능(Linear separable)
+  - 하지만 XOR 문제는 해결 불가능(non linear)
+  ![Lec08_1-2](./image/Lec08_1-2.JPG)
+
+  - 한개의 뉴론으로는 해결이 불가능 여러개의 뉴론(MLP)을 사용하면 가능
+    - 하지만 뉴론을 학습시킬 수가 없음
+    - 해결 방법 : backpropagation
+    ![Lec08_1-3](./image/Lec08_1-3.JPG)
+    - 해결 방법2 : Convolutional Neural Network
+    - 고양이 시신경을 연결해 뉴론 활성 상태를 확인했을 때 이미지에 따라 일부만 활성화
+    ![Lec08_1-4](./image/Lec08_1-4.JPG)
+
+  - Big problem
+    - backpropagation은 적은 수의 층에서는 잘 동작하나 층수가 많아지면 성능이 떨어짐..
+    - Neural Network보다 간단한 알고리즘(SVM 등..)이 잘 동작함
+
+# Lec 08-2 딥러닝의 기본 개념2: Back-propagation 과 2006/2007 '딥'의 출현
+
+  - BreakThrough
+    - 2006년: 초기값을 잘못 지정해줘서 W값을 훈련하지 못했다고 논문
+    - 2007년: 초기값 문제 확인, neural network를 깊게 구성하면 복잡한 문제 해결 가능
+
+  - ImageNet Classfication 대회
+    - 전까진 30%의 오류율을 보였으나 CNN 사용하여 15%로 급감 -> 3%...
