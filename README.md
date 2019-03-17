@@ -109,3 +109,13 @@
     - Regularization: 너무 큰 Weight 값을 가지게 하지 않는 것
     ![Lec07-2](./image/Lec07-2.JPG)
     - cost funtion에 특정 값을 더해 cost 값 최적화
+
+## Lec 07-2 Traning/ Testing data set 
+
+  - data set을 전부 training하는데 사용하면 문제가 발생할 수 있음
+    - 시험을 치는데 지난 시험 문제와 똑같은 문제로 시험치는것과 똑같음
+  - 모델의 정확성을 높히기 위해서 data set의 70%는 training set으로, 30%는 test set으로 분리
+  - test set은 숨겨져 있고 training set으로 학습
+  ![Lec07_1-1](./image/Lec07_1-1.JPG)
+  
+
