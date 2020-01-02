@@ -10,7 +10,7 @@
 
 - KDD(Knowledge Discovery in Database)
 
-  ![KDD](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%201-%20Introduction%20to%20Data%20Science/KDD.JPG)
+  ![KDD](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%201-Introduction%20to%20Data%20Science/KDD.JPG)
   
   1.  데이터 습득
   
@@ -25,7 +25,7 @@
 
 - CRISP-DM(Cross Industry Standard Process for Data Mining)
 
-  ![CRISP-DM](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%201-%20Introduction%20to%20Data%20Science/CRISP-DM.JPG)
+  ![CRISP-DM](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%201-Introduction%20to%20Data%20Science/CRISP-DM.JPG)
 
   - KDD 공식화에 상당한 노력을 쏟음
   - 화살표를 통해 프로세스 내 필요한 반복 횟수를 알 수 있음
