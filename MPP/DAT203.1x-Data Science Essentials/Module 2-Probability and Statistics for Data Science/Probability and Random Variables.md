@@ -61,7 +61,7 @@
 
 - 예제: 주사위의 확률
 
-  ![fig1](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and Statistics%20for%20Data%20Science\fig1-roll_of_a_dice.JPG)
+  ![fig1](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and%20Statistics%20for%20Data%20Science\fig1-roll_of_a_dice.JPG)
 
   - X: 확률변수, 주사위를 굴렸을때 나오는 값
   - x: outcome
@@ -107,7 +107,7 @@
 
   - 베르누이 분포의 확률 질량 함수(Probability Mass Function, PMF)는 다음과 같음
 
-    ![fig2](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and Statistics%20for%20Data%20Science\fig2-bernoulli_PMF.JPG)
+    ![fig2](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and%20Statistics%20for%20Data%20Science\fig2-bernoulli_PMF.JPG)
 
   - 베르누이 분포는 다음과 같이 나타낼 수 있음
     $$
@@ -231,17 +231,17 @@ $$
 
 - 특정 값을 놓고 확률을 묻는다면 해당 값의 구간은 0의 확률을 가지지만 값의 범위를 지정하고 확률을 물으면 0이 될수 없음
 
-  ![fig3](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and Statistics%20for%20Data%20Science\fig3-continuous_probability_distributuion.JPG)
+  ![fig3](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and%20Statistics%20for%20Data%20Science\fig3-continuous_probability_distributuion.JPG)
 
 - 위와 같은 함수를 **확률 밀도 함수(Probability density function)** 이라고 함
 
-![fig4](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and Statistics%20for%20Data%20Science\fig4-uniform_distribution.JPG)
+![fig4](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and%20Statistics%20for%20Data%20Science\fig4-uniform_distribution.JPG)
 
 - 위와 같이 특정 구간의 확률이 동일한 분포를 **균등 분포(Uniform Distribution)** 이라고 함
 
 - 특정 구간의 확률을 구하기 위해서 다음과 같이 계산
 
-  ![fig5](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and Statistics%20for%20Data%20Science\fig5-calculate_continuous_distribution_probability.JPG)
+  ![fig5](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and%20Statistics%20for%20Data%20Science\fig5-calculate_continuous_distribution_probability.JPG)
 
 
 
@@ -263,7 +263,7 @@ $$
   
 - F(x)값을 구하였을때 다음과 같이 그래프로 나타낼 수 있음
 
-![fig6](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and Statistics%20for%20Data%20Science\fig6-cdf.JPG)
+![fig6](https://github.com/lolhi/ML_Lec/blob/master/MPP/DAT203.1x-Data%20Science%20Essentials/Module%202-Probability%20and%20Statistics%20for%20Data%20Science\fig6-cdf.JPG)
 
 
 
